@@ -1,0 +1,162 @@
+html *
+{
+   font-family: Arial !important;
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  padding: 0.1em;
+}
+
+nav+h1{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.link:hover{
+  color: #c6e9f8
+;
+  text-decoration: underline;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+a:visited{
+  display: none;
+}
+
+.hero{
+  background-image: url("banniere.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  height: 50%;
+  padding: 5em;
+}
+
+.slogan{
+ text-align: center;
+  postion: absolute;
+}
+
+.imglogo{
+  height: auto;
+  width: 100%;
+}
+.logo{
+  height: 20%;
+  width: 20%;
+}
+
+
+
+
+
+
+.carrousel{
+  display:flex;
+  justify-content:center;
+ border-bottom: 0.1em solid black;
+ width: auto;
+ text-align: center;
+ padding: 1em;
+}
+
+
+.img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 900px;
+}
+
+
+
+
+.desc{
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+section+h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.info{
+  text-align: center;
+}
+
+
+.icon{
+  float: left;
+  clear: both;
+  width: 1.5em;
+  object-fit: contain;
+}
+
+.aside{
+  text-align: left;
+}
+.social{
+  width: 2em;
+  object-fit: contain;
+  float: left;
+}
+
+
+.column{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.acces{
+  border-top: 0.1em solid black;
+  font-size: 2em;
+}
+
+.infoacces{
+  text-align: center;
+}
+  
+
+
+#liste{
+  margin-top: 2em;
+  text-align: center;
+}
+
+button{
+  background-color:#c6e9f8 ;
+  padding: 0.5em;
+}
+
+.center{
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.reservation{
+  text-align: center;
+}
